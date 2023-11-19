@@ -1,0 +1,182 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{caption}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{logo.png}
+\end{center}
+\title{Manual de instalación de MATLAB en Linux (Ubuntu)}
+\author{Flores Torres Ángel Joel}
+\date{18 Noviembre 2023}
+\usepackage[spanish]{babel}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\section{Introducción}
+\textbf{MATLAB es una poderosa herramienta utilizada en diversos campos como la ingeniería, las ciencias de la computación y las matemáticas aplicadas. MATLAB, que significa "Laboratorio de Matrices", es un entorno de programación y desarrollo diseñado para facilitar la manipulación de datos, la resolución de problemas numéricos y la visualización de resultados. Este software desarrollado por MathWorks combina un lenguaje de programación de alto nivel con un entorno interactivo y una amplia variedad de herramientas especializadas. Su capacidad para trabajar con matrices y realizar operaciones matemáticas avanzadas lo convierte en una herramienta esencial para el análisis de datos, la simulación y el modelado, así como para la implementación de algoritmos complejos.}
+
+\section{Instalación}
+\begin{enumerate}
+    \item \textbf{Primero debemos acceder al sitio oficial de MathWorks para poder descargar MATLAB, para ello debemos contar con una cuenta en dicho sitio, en caso de no tener una basta con registrarse e iniciar sesión.  }
+    \vspace{2em}
+    \begin{center}
+    \includegraphics[width=.9\textwidth]{m1.jpg}
+    \captionof{figure}{Creación de la cuenta}
+\end{center}
+\end{enumerate}
+\vspace{8em}
+
+\begin{enumerate}\setcounter{enumi}{1}
+    \item \textbf{Una vez creada la cuenta (o en su defecto haber iniciado sesión) procedemos a descargar el programa. En este caso lo haremos mediante el Software UNAM, ya que al hacerlo mediante este medio nos proporciona una licencia de estudiante  }
+    \vspace{1em}
+    \begin{center}
+    \includegraphics[width=.9\textwidth]{m2.jpg}
+    \captionof{figure}{Licencia que proporciona la UNAM}
+    \vspace{4em}
+    \includegraphics[width=.9\textwidth]{m3.jpg}
+    \captionof{figure}{Descarga del programa para Linux}
+\end{center}
+\end{enumerate}
+
+\begin{enumerate}\setcounter{enumi}{2}
+    \item \textbf{Ya que hemos descargado MATLAB nos dirigimos a la carpeta donde se haya instalado y lo abrimos mediante el gestor de archivadores  }
+    \vspace{1em}
+    \begin{center}
+    \includegraphics[width=.9\textwidth]{m4.jpg}
+    \captionof{figure}{Ubicación del archivo}
+    \vspace{2em}
+    \includegraphics[width=.8\textwidth]{m5.jpg}
+    \captionof{figure}{Abrimos con el gestor de archivadores}
+\end{center}
+\end{enumerate}
+
+\begin{enumerate}\setcounter{enumi}{3}
+    \item \textbf{Una vez que abrimos el archivo procedemos a extraer los archivos, en mi caso cree una carpeta y ahí los extraje  }
+    \vspace{1em}
+    \begin{center}
+    \includegraphics[width=.8\textwidth]{m6.jpg}
+    \captionof{figure}{Extraer los archivos en el lugar deseado}
+    \vspace{2em}
+    \includegraphics[width=.9\textwidth]{m7.jpg}
+    \captionof{figure}{Archivos extraidos}
+\end{center}
+\end{enumerate}
+
+\begin{enumerate}\setcounter{enumi}{4}
+    \item \textbf{Ahora nos dirigimos a la terminal y accedemos al directorio donde tenemos los archivos que hemos extraido y ejecutamos el siguiente comando: }
+    \vspace{1em}
+    \begin{center}
+    \includegraphics[width=.8\textwidth]{m8.jpg}
+    \captionof{figure}{Estando en el directorio de instalación}
+    \vspace{2em}
+    \item \textbf{Nota: Cuando ejecutemos dicho comando se nos pedira ingresar nuestra contraseña, podemos ingresarla sin problema }
+    \vspace{1em}
+    
+    \includegraphics[width=.9\textwidth]{m9.jpg}
+    \captionof{figure}{Comando que debemos ejecutar}
+\end{center}
+\end{enumerate}
+\vspace{1em}
+
+\begin{enumerate}\setcounter{enumi}{5}
+    \item \textbf{Se nos desplegará la ventana de instalación donde se nos pedirá ingresar nuestra cuenta}
+    \vspace{1em}
+    \begin{center}
+    \includegraphics[width=.8\textwidth]{m10.jpg}
+    \captionof{figure}{Ingresamos la cuenta creada}
+\end{center}
+\end{enumerate}
+
+\begin{enumerate}\setcounter{enumi}{6}
+    \item \textbf{Aceptamos los términos y condiciones y le damos next}
+    \begin{center}
+    \includegraphics[width=.8\textwidth]{m11.jpg}
+    \captionof{figure}{Términos y condiciones}
+\end{center}
+\end{enumerate}
+\vspace{1em}
+
+\begin{enumerate}\setcounter{enumi}{7}
+    \item \textbf{Escogemos la licencia y le damos next}
+    \begin{center}
+    \includegraphics[width=.8\textwidth]{m12.jpg}
+    \captionof{figure}{Licencia proporcionada por la UNAM}
+\end{center}
+\end{enumerate}
+
+\begin{enumerate}\setcounter{enumi}{8}
+    \item \textbf{Seleccionamos la ruta de instalación y damos en next}
+    \begin{center}
+    \includegraphics[width=.8\textwidth]{m13.jpg}
+    \captionof{figure}{Ruta de instalación}
+\end{center}
+\end{enumerate}
+\vspace{1em}
+
+\begin{enumerate}\setcounter{enumi}{10}
+    \item \textbf{Escojemos los productos que deseamos instalar y damos en next}
+    \begin{center}
+    \includegraphics[width=.8\textwidth]{m14.jpg}
+    \captionof{figure}{Productos a instalar}
+\end{center}
+\end{enumerate}
+
+\begin{enumerate}\setcounter{enumi}{11}
+    \item \textbf{Finalmente observemos que todo este en orden y le damos en begin install (iniciar instalación)}
+    \begin{center}
+    \includegraphics[width=.9\textwidth]{m15.jpg}
+    \captionof{figure}{Iniciamos la instalación}
+\end{center}
+\end{enumerate}
+\vspace{1em}
+
+\begin{enumerate}\setcounter{enumi}{12}
+    \item \textbf{Una vez que termine la instalación debemos configurar las variables de entorno y agregar la ruta de instalación donde quedo nuestra carpeta, para ello ejecutamos los siguientes comandos y agregamos las variables al PATH}
+    \begin{center}
+    \includegraphics[width=.9\textwidth]{m16.jpg}
+    \captionof{figure}{Accedemos al archivo mediante un editor de texto}
+\end{center}
+\end{enumerate}
+\vspace{11em}
+
+\begin{enumerate}\setcounter{enumi}{13}
+    \item \textbf{Agregamos la ruta de instalacion}
+    \begin{center}
+    \includegraphics[width=.9\textwidth]{m17.jpg}
+    \captionof{figure}{Ruta donde tenemos instalado MATLAB}
+\end{center}
+\end{enumerate}
+\vspace{2em}
+
+\begin{enumerate}\setcounter{enumi}{14}
+    \item \textbf{Guardamos el archivo, refrescamos la terminal y ejecutamos matlab}
+    \begin{center}
+    \includegraphics[width=.9\textwidth]{m18.jpg}
+    \captionof{figure}{Refrescamos terminal y ejecutamos}
+\end{center}
+\end{enumerate}
+\vspace{15em}
+
+\begin{enumerate}\setcounter{enumi}{16}
+    \item \textbf{Finalmente se nos pedira iniciar con nuestra cuenta y una vez realizado se nos abrira MATLAB. ¡Listo, hemos instalado MATLAB en Linux!}
+    \vspace{2em}
+    \begin{center}
+    \includegraphics[width=.9\textwidth]{m19.jpg}
+    \captionof{figure}{Instalación de MATLAB terminada}
+\end{center}
+\end{enumerate}
+
+\lstnewenvironment{bash}[1][]
+{
+    \lstset{style=bashstyle, #1}
+}
+{}
+
+\end{document}
